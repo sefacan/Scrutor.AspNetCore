@@ -1,6 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Dependency Injection Helper Package For .Net Core Apps</Description>
+    <Version>1.0.0</Version>
+    <AssemblyName>Scrutor.AspNetCore</AssemblyName>
+    <RootNamespace>Scrutor.AspNetCore</RootNamespace>
+    <Copyright>2019 dotnetanywhere.com</Copyright>
+    <RepositoryUrl>https://github.com/sefacan/dotnetboilerplate/tree/master/src/DotnetBoilerplate.DependencyInjection</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/sefacan/dotnetboilerplate/tree/master/src/DotnetBoilerplate.DependencyInjection</PackageProjectUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Authors>Sefa Can</Authors>
+    <Company>dotnetanywhere.com</Company>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
