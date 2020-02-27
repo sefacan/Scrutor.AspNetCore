@@ -2,6 +2,11 @@
 
  ASP.NET Core [Scrutor](https://github.com/khellang/Scrutor) extension for automatic registration of classes inherited from IScopedLifetime, ISelfScopedLifetime, ITransientLifetime, ISelfTransientLifetime, ISingletonLifetime, ISelfSingletonLifetime
 
+### Build Status
+| Build server    | Platform       | Status      |
+|-----------------|----------------|-------------|
+| Travis CI       | Linux  |![](https://travis-ci.com/sefacan/Scrutor.AspNetCore.svg?branch=master) |
+
 ## Installation
 
 Install the [Scrutor.AspNetCore NuGet Package](https://www.nuget.org/packages/Scrutor.AspNetCore).
