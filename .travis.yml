@@ -1,10 +1,9 @@
 language: csharp
 mono: none
-sudo: required
-os: linux
-
 dotnet: 3.1.101
 
+dist: xenial
+os: linux
+
 script:
-- dotnet pack Scrutor.AspNetCore.sln --configuration Release --output nupkgs -p:IncludeSymbols=true -p:SymbolPackageFormat=snupkg
-- dotnet nuget push nupkgs/*.nupkg -k $NUGETKEY --skip-duplicate
+- dotnet test
