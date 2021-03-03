@@ -26,3 +26,5 @@ jobs:
       run: dotnet pack -c Release --no-build -o ./packages
     - name: Push
       run: dotnet nuget push ./packages/Scrutor.AspNetCore.*.nupkg --skip-duplicate --api-key ${{secrets.NUGET_TOKEN}} --source https://api.nuget.org/v3/index.json
+      
+      
