@@ -5,7 +5,7 @@
     <Version>3.3.0</Version>
     <AssemblyName>Scrutor.AspNetCore</AssemblyName>
     <RootNamespace>Scrutor.AspNetCore</RootNamespace>
-    <Copyright>2021 sefacan.com</Copyright>
+    <Copyright>2021 sefacan.net</Copyright>
     <RepositoryUrl>https://github.com/sefacan/Scrutor.AspNetCore</RepositoryUrl>
     <PackageProjectUrl>https://github.com/sefacan/Scrutor.AspNetCore</PackageProjectUrl>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
